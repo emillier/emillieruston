@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  border-top: 5px solid rgb(255, 147, 147);
+  border-bottom: 5px solid rgb(255, 147, 147);
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: .9;
+  color: #33334d;
+}
+
+.h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+}
+
+.italicize {
+  font-style: italic;
+}
+
+.punctuation {
+  color: #ccc;
+}
