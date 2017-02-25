@@ -41,8 +41,15 @@ body {
 
 .italicize {
   font-style: italic;
+  padding-left: 4px;
 }
 
 .punctuation {
   color: #ccc;
+}
+
+@media (min-width:480px) {
+  .italicize {
+    padding-left: 0;
+  }
 }
